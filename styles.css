@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, #160012 50%, #261022 80%, #BD50BF 200%);
+}
+
+/* Nav Bar */
+nav {
+    background-color: #160012;
+}
+
+#navbar {
+    text-align: right;
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar p {
+    color: #0DF205;
+    font-size: 1rem;
+    margin-left: 4vw;
+}
+
+#navbar p:hover {
+    color: #108C0B;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 2vw;
+}
+
+li:last-child {
+    margin-right: 4vw;
+}
+
+a {
+    text-decoration: none;
+    color: #BD50BF;
+}
+
+a:hover {
+    color: #0DF205;
+}
+
+/* Boas-vindas */
+#welcome-section {
+    height: 100vh; /* Definindo altura igual à viewport */
+    text-align: center; 
+    color: #eee;
+    padding-top: 30vh;
+}
+
+#welcome-section h1 {
+    font-size: 5rem;
+    color: #fff;
+    padding: 4vh;
+    margin: 0;
+}
+
+#welcome-section h2 {
+    font-size: 1.7rem;
+    color: #108C0B;
+    padding: 0;
+    margin: 0;
+}
+
+/* Projetos */
+.project-tile {
+    text-align: center;
+    color: #108C0B;
+}
+
+#projects img { 
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.project-grid {
+    display: flex;
+}
+
+.project-grid  a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(19, 0, 17, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(19, 0, 17, 0.4);
+    transition: box-shadow 0.2s ease-out;
+    margin: 20px;
+    max-width: 30vw;
+    color: #eee;
+}
+  
+.project-grid a:hover {
+    box-shadow: 0 0 20px rgba(60, 180, 40, 0.5);
+    color:#108C0B;
+    border: 1px solid #0DF205;
+}
+
+.project-tile p {
+    margin: 0;
+}
+
+
+/* Contato */
+.title-contact{
+    text-align: center;
+    color: #108C0B;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icone {
+    max-width: 100%;
+    width: 4vw;
+    padding: 30px 0;
+    margin: 0;
+    max-height: 10vh;
+}
+
+footer {
+    color:#160012;
+    font-size: 16px;
+    padding-left: 2vw;
+}
+
+  /* Paleta de cores:
+        Rosa do escuro para claro:
+            #160012
+            #261022
+            #BD50BF
+            #F2D5F2
+
+        Verde do escuro para claro:
+            #108C0B
+            #0DF205
+  */
