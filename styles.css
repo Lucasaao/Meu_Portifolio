@@ -147,6 +147,12 @@ footer {
 
 @media (max-width: 1100px) {
 
+    /* Geral */
+    p {
+        font-size: 1rem;
+    }
+
+    /* Projetos */
     .project-grid  a{
         display: flex;
         flex-direction: column;
@@ -172,8 +178,12 @@ footer {
 }
 
 @media (max-width: 900px) {
-
     /* projetos */
+    #projects {
+        margin-top: -10px;
+        padding-top: -10px;
+    }
+
     .project-tile {
         text-align: center;
         color: #108C0B;
@@ -223,10 +233,35 @@ footer {
         padding: 20px 0;
         margin: 0;
         max-height: 15vh;
-    }
-    
+    }    
 }
 
+@media (max-width: 410px) {
+    /* Nav Bar */
+    #navbar p {
+        color: #0DF205;
+        margin-left: 2vw;
+        width: 0px;
+    }
+
+    li {
+        display: inline;
+        margin-right: 0.9vw;
+    }
+    
+    li:last-child {
+        margin-right: 2vw;
+    }
+
+    /* Boas-Vindas */
+    #welcome-section {
+        padding-top: 20vh;
+    }
+
+    .project-grid  a {
+        max-width: 60vw;
+    }
+}
   /* Paleta de cores:
         Rosa do escuro para claro:
             #160012
