@@ -258,6 +258,14 @@ footer {
         padding-top: 20vh;
     }
 
+    #welcome-section h1 {
+        font-size: 4rem;
+        color: #fff;
+        padding: 3vh;
+        margin: 0;
+    }
+
+    /* Projetos */
     .project-grid  a {
         max-width: 60vw;
     }
