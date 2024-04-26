@@ -59,7 +59,7 @@ a:hover {
 
 /* Boas-vindas */
 #welcome-section {
-    height: 100vh; /* Definindo altura igual à viewport */
+    height: 70vh; /* Definindo altura igual à viewport */
     text-align: center; 
     color: #eee;
     padding-top: 30vh;
@@ -241,7 +241,7 @@ footer {
     #navbar p {
         color: #0DF205;
         margin-left: 2vw;
-        width: 0px;
+        width: 14%;
     }
 
     li {
